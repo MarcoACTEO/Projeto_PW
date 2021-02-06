@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Projeto PW Index</title>
+    <link rel ="stylesheet" href ="/style.css">
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 >
+            <a href = "index.html">Receitas da Avozinha </a>
+        </h1>
+        <button onclick="location.href = 'postCreator.html'" id = "submitPost">Inserir Receita</button>
+        <button onclick="location.href = 'login.html'" id = "login">Log In</button>
+        <button onclick="location.href = 'register.html'" id = "reg">Registrar</button>
+    </header>
+    <article>
+        <div id = Categories > 
+                <canvas id = "rectButton" ></canvas>
+                <button id = "carneButton">Carne</button></li>
+                <button id = "peixeButton">Peixe</button></li>
+                <button id = "doçariaButton">Doçaria</button></li>
+                <button id = "licoresButton">Licores</button></li>
+            </ul>  
+        </div>
+        <div id = Posts>
+            <canvas id = "rectPosts" ></canvas>
+            <iframe id = "frame" src="https://moodle.ips.pt/2021/" title = "Posts"></iframe>
+            <canvas id = "chosenType"></canvas>
+            <p id = "chosen">Carne</p>
+            <select name = "select" id = "select">
+                <option value="Data Ascendente">Data Ascendente</option>
+                <option value="Data Descendente"> Data Descendente</option>
+                <option value="Favoritos Ascendente">Favoritos Ascendente</option>
+                <option value="Favoritos Descendente">Favoritos Descendente</option>
+                <option value="Comentários Ascendente">Comentários Ascendente</option>
+                <option value="Comentários Descendente">Comentários Descendente</option>
+            </select>
+            <form id = "search" action="/action_page.php" >
+                <label for ="fname">Titulo:</label><br>
+                <input type="text" id="fname" ><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </article>   
+    <footer>
+        <p>footer info goes here</p>
+    </footer> 
+
+</body>

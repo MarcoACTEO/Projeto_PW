@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Projeto PW Index</title>
+    <link rel ="stylesheet" href ="./public/style.css">
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 >
+            <a href = "index.html">Receitas da Avozinha</a>
+        </h1>
+        <button id = "submitPost">Inserir Receita</button>
+        <button onclick="location.href = 'login.html'" id = "login">Log In</button>
+        <button onclick="location.href = 'register.html'" id = "reg">Registrar</button>
+    </header>
+    <article>
+        <div id = PostCreator>
+            <canvas id = "creatorRect" ></canvas>
+            <h1 id = "creatorTitle"> Insera a sua Receitas</h1>
+            <select name = "createSelect" id = "createSelect">
+                <option value="CarnesSelect">Carnes</option>
+                <option value="PeixeSelect">Peixe</option>
+                <option value="DoceSelect">Doçarias</option>
+                <option value="LiquorSelect">Liquores</option>
+            </select>
+            <form id = "regInput" action="/action_page.php" >
+                <label for ="fname">Região:</label><br>
+                <input type="text" id="fname" ><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <form id = "textInput" action="/action_page.php">
+                <label for ="fname">Receita:</label><br>
+                <input type="text" id="fname" size="75" height= ><br><br>
+            </form>
+            <select name  = "stepper" id ="fontStepper">
+                <option value="12px">12px</option>
+                <option value="14px">14px</option>
+                <option value="16px">16px</option>
+                <option value="18px">18px</option>
+                <option value="20px">20px</option>
+                <option value="22px">22px</option>
+                <option value="24px">24px</option>
+                <option value="26px">26px</option>
+                <option value="28px">28px</option>
+                <option value="30px">30px</option>
+                <option value="32px">32px</option>
+                <option value="34px">34px</option>
+                <option value="36px">36px</option>
+         
+            </select>
+
+            </div>
+        </div>
+
+    </article>
+
+    <footer>
+        <p>footer info goes here</p>
+    </footer> 

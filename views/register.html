@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Projeto PW Index</title>
+    <link rel ="stylesheet" href ="public/style.css">
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 >
+            <a href = "index.html">Receitas da Avozinha </a>
+        </h1>
+        <button onclick="location.href = 'postCreator.html'" id = "submitPost">Inserir Receita</button>
+        <button onclick="location.href = 'login.html'" id = "login">Log In</button>
+        <button onclick="location.href = 'register.html'" id = "reg">Registrar</button>
+    </header>
+    <article>
+        <div id = account>
+            <canvas id = "rectAcc" ></canvas>
+            <h1 id = "accTitle">Log In</h1>
+            <canvas id ="box1"></canvas>
+            <p style="position:absolute;
+            top:180px;
+            left:610px;    
+            width: 146px;
+            text-align: center;">
+            UserName</p>
+            <canvas id ="box2"></canvas>
+            <p style="position:absolute;
+            top:302px;
+            left:610px;    
+            width: 146px;
+            text-align: center;">
+            Mail</p>
+            <canvas id ="box3"></canvas>
+            <p style="position:absolute;
+            top:435px;
+            left:610px;    
+            width: 146px;
+            text-align: center;">
+            Pass</p>
+            <button id = "accButton">Registrar</button>
+            <form id = "box1Input" action="/action_page.php" method="POST">
+                <label for ="fname"></label><br>
+                <input type="text" class = "form-control" id="name" ><br><br>
+            </form>
+            <form id = "box2Input" action="/action_page.php" method="POST">
+                <label for ="fname"></label><br>
+                <input type="text" class = "form-control" id="email" ><br><br>
+            </form>
+            <form id = "box3Input" action="/action_page.php"method = "POST">
+                <label for ="fname"></label><br>
+                <input type="text" class = "form-control" id="password" ><br><br>
+            </form>
+        </div>
+    </article>
+    <footer>
+        <p>footer info goes here</p>
+    </footer>
+</body>

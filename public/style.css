@@ -1,0 +1,488 @@
+html,body{
+    background-color: #e9cfb1;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+header{
+    background: #ffe1c9;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1em;
+    padding:0.5%;
+    height: calc(10% - 25px); 
+    color: #a56451;
+    font-family: "Bilbo Swash Caps";
+    line-height: 200%;
+
+}
+article{
+    margin: 0 auto;
+    width: 100%; 
+    height: calc(100% - 10px); 
+}
+#submitPost{
+    position:absolute;
+    top:    3%;
+    left: calc(100% - 500px);
+    width: 120px;
+    height: 32px;
+    padding: 0px 10px 0px 10px;
+    background: #ffffff;
+    color: #232323;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center
+}
+#login{
+    position:absolute;
+    top:    3%;
+    left: calc(100% - 350px);
+    width: 120px;
+    height: 28px;
+    background: #e9beb1;
+    color: #365868;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+#reg{
+    position:absolute;
+    top:    3%;
+    left: calc(100% - 200px);
+    width: 120px;
+    height: 28px;
+    background: #e9beb1;
+    color: #365868;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+#rectButton{
+    width: 168px;
+    height: 360px;
+    position:absolute;
+    top:117px;
+    left:26px;
+    background: #ffe1c9;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+#carneButton{ 
+    position:absolute;
+    top:140px;
+    left:43px;
+    width: 134px;
+    height: 53px;
+    padding: 0px 10px 0px 10px;
+    background: #e9beb1;
+    color: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    
+}
+#peixeButton{
+    position:absolute;
+    top:227px;
+    left:43px;
+    width: 134px;
+    height: 53px;
+    padding: 0px 10px 0px 10px;
+    background: #e9beb1;
+    color: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+#doçariaButton{
+    position:absolute;
+    top:314px;
+    left:43px;
+    width: 134px;
+    height: 53px;
+    padding: 0px 10px 0px 10px;
+    background: #e9beb1;
+    color: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+#licoresButton{
+    position:absolute;
+    top:401px;
+    left:43px;
+    width: 134px;
+    height: 53px;
+    padding: 0px 10px 0px 10px;
+    background: #e9beb1;
+    color: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+#posts{
+    position:relative;
+ 
+}
+#rectPosts{
+    position:absolute;
+    top:117px;
+    left:229px;
+    width: 992px;
+    height: 562px;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    overflow: auto;
+    
+}
+
+#frame{
+    position:absolute;
+    top:128px;
+    left:241px;
+    width: 754px;
+    height: 531px;
+    background: #ffe1c9;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#chosenType{
+    position:absolute;
+    top:137px;
+    left:1003px;
+    width: 180px;
+    height: 50px;
+    background: #ffe1c9;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+#chosen{
+    position:absolute;
+    top:147px;
+    left:1027px;
+    width: 125px;
+    height: 30px;
+    color: #232323;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+#select{
+    position:absolute;
+    top:198px;
+    left:1003px;
+    width: 180px;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    background: #ebebeb;
+    color: #232323;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px 4px 4px 4px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+#search{
+    position:absolute;
+    top:245px;
+    left:1003px;
+    width: 180px;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    background: #ffffff;
+    color: #c0c0c0;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+
+#creatorRect{
+    position:absolute;
+    top: 134px;
+    left:40px;
+    width: 852px;
+    height: 561px;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px 16px 16px 16px;
+}
+#postVRect{
+    position:absolute;
+    top: 15%;
+    left: 5%;
+    width: 60%;
+    height: 80%;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px 16px 16px 16px;
+}
+#commentBox{
+    position:absolute;
+    top: 15%;
+    left:calc(65% + 100px);
+    width: 25%;
+    height: 80%;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px 16px 16px 16px;
+}
+#createSelect{
+    position:absolute;
+    top:157px;
+    left:678px;
+    width: 180px;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    background: #ebebeb;
+    color: #232323;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px 4px 4px 4px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+#regInput{
+    position:absolute;
+    top:242px;
+    left:682px;
+    width: 180px;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    background: #ffffff;
+    color: #c0c0c0;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+#textInput{
+    position:absolute;
+    top:205px;
+    left:64px;
+    width: 585px;
+    height: 438px;
+    padding: 4px 8px 4px 8px;
+    background: #ffffff;
+    color: #c0c0c0;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family:  " Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+#fontStepper{
+    position: absolute;
+    top:557px;
+    left:692px;
+    width: 90px;
+    height: 32px;
+    padding: 0px 5px 0px 5px;
+    background: #ebebeb;
+    color: #202020;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+#creatorTitle{
+    position: absolute;
+    top:16%;
+    left:6%;
+}
+#rectAcc{
+    position:absolute;
+    top:108px;
+    left:283px;
+    width: 801px;
+    height: 578px;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px 16px 16px 16px;
+}
+#accTitle{
+    position: absolute;
+    top:110px;
+    left:578px;
+    width: 193px;
+    height: 36px;
+    color: #000000;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+#box1{
+    position:absolute;
+    top:180px;
+    left:461px;
+    width: 446px;
+    height: 95px;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+#box2{
+    position:absolute;
+    top:303px;
+    left:461px;
+    width: 446px;
+    height: 95px;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+#box3{
+    position:absolute;
+    top:426px;
+    left:461px;
+    width: 446px;
+    height: 95px;
+    background: #e9beb1;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#accButton{
+    position:absolute;
+    top:580px;
+    left:623px;
+    width: 120px;
+    height: 32px;
+    padding: 0px 10px 0px 10px;
+    background: #ebebeb;
+    color: #232323;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+#registButton{
+    position:absolute;
+    top:630px;
+    left:917px;
+    width: 120px;
+    height: 32px;
+    padding: 0px 10px 0px 10px;
+    background: #ebebeb;
+    color: #232323;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+#box1Input{
+    position:absolute;
+    top:345px;
+    left:595px;
+}
+#box2Input{
+    position:absolute;
+    top:220px;
+    left:595px;
+}
+#box3Input{
+    position:absolute;
+    top:470px;
+    left:595px;
+}
+footer{
+    border-top: 1px solid rgb(0, 0, 0);
+    clear:both;
+    height:calc(10% - 35px);
+    background: #a56451;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: right;
+    font-size: 2em;
+    padding:10px;
+}
+
+
